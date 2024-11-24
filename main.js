@@ -40,7 +40,7 @@
     const style = document.createElement('style');
     style.textContent = `
         .highlight-todo {
-            background-color: yellow !important;  /* Use !important to override other styles */
+            background-color: yellow !important;
         }
     `;
     document.head.appendChild(style);
